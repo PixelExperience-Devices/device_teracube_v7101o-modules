@@ -4,10 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_KERNEL_PATH := device/teracube/v7101o-modules
+DEVICE_MODULES_PATH := device/teracube/v7101o-modules
 
 # Kernel modules
-KERNEL_MODULES_ORIG := $(DEVICE_KERNEL_PATH)/modules
+KERNEL_MODULES_ORIG := $(DEVICE_MODULES_PATH)/modules
 KERNEL_MODULES_DEST := $(TARGET_COPY_OUT_VENDOR)/lib/modules
 
 PRODUCT_COPY_FILES += \
